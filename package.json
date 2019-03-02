@@ -1,0 +1,19 @@
+{
+    "name": "backen-sever",
+    "version": "1.0.0",
+    "description": "Servidor backen del curso de Fernando Herrera",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Roberto Valdes D",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mongoose": "^5.4.16"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
